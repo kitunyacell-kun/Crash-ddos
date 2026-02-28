@@ -45,7 +45,7 @@ def run():
       while True:
         r = http.request('GET',url,headers=headers)
     else:
-        print "It only work on HTTP server!!!"
+        print("It only work on HTTP server!!!"(
 
 for i in range(thread_num):
     th = threading.Thread(target = run)
