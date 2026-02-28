@@ -13,7 +13,7 @@ print("""
 """)
 
 http = urllib3.PoolManager()
-host=raw_input("Url/ip:")
+host= raw_input("Url/ip:")
 thread_num=input("Threads:")
 
 user_agent = [
